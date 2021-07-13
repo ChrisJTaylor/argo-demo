@@ -4,7 +4,7 @@ metadata:
   name: argo-demo-ingress-prd
 spec:
   rules:
-  - host: argo-prd.demo.info
+  - host: argo-prd.demo.local
     http:
       paths:
       - path: /
